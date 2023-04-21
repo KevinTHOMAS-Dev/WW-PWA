@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="fr">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="apple-mobile-web-app-status-bar" content="white">
+            <meta name="theme-color" content="black">
+            <link rel="shortcut icon" href="./assets/icons/icon-128x128.png">
+            <link rel="stylesheet" href="./styles.css">
+            <link rel="manifest" href="./manifest.json">
+            <link rel="apple-tuch-icon" href="./assets/icons/icon-96x96.png">
+            <script defer src="./js/main.js"></script>
+            <script defer src="./js/app.js"></script>
+            <title>Watch What</title>
+        </head>
+        <body>
+            <header>
+                <h1>What Watch</h1>
+                <form id="form_search">
+                    <input type="text" placeholder="Entrez le titre d'un film" id="input_search"><br>
+                    <input type="submit" value="Rechercher">
+                </form>
+            </header>
+            <main>
+                <div class="container_result">
+                    <ul id="result"></ul>
+                </div>
+                <img src="./assets/icons/icon-512x512.png" alt="logo">
+            </main>
+        </body>
+    </html>
